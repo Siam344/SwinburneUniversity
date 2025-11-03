@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register | AWE Electronics</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'store/styles.css' %}" />
+  </head>
+  <body>
+    <h1>Create an Account</h1>
+    <form method="POST">
+      {% csrf_token %} {{ form.as_p }}
+      <button type="submit">Register</button>
+    </form>
+    <a href="{% url 'store:login' %}">Already have an account? Login</a>
+  </body>
+</html>

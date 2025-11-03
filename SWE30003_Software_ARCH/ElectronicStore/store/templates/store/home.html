@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | AWE Electronics</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'store/styles.css' %}" />
+  </head>
+  <body>
+    <h1>Welcome to AWE Electronics</h1>
+    <div>
+      <a href="{% url 'store:product_list' %}">Browse Products</a> |
+      <a href="{% url 'store:register' %}">Register</a> |
+      <a href="{% url 'store:login' %}">Login</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Upload Product | AWE Electronics</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'store/styles.css' %}" />
+  </head>
+  <body>
+    <h1>Upload New Product</h1>
+    <form method="POST">
+      {% csrf_token %} {{ form.as_p }}
+      <button type="submit">Upload</button>
+    </form>
+    <a href="{% url 'store:product_list' %}">Back to Product List</a>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Products | AWE Electronics</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'store/styles.css' %}" />
+  </head>
+  <body>
+    <h1>Available Products</h1>
+    <ul>
+      {% for product in products %}
+      <li><strong>{{ product.name }}</strong> — ${{ product.price }}</li>
+      {% empty %}
+      <li>No products available.</li>
+      {% endfor %}
+    </ul>
+    <a href="{% url 'store:home' %}">Back to Home</a>
+  </body>
+</html>

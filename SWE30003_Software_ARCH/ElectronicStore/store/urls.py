@@ -1,0 +1,14 @@
+from django.urls import path
+from . import views
+
+app_name = 'store'
+
+urlpatterns = [
+    path('', views.home, name='home'),
+    path('products/', views.product_list, name='product_list'),
+    path('checkout/', views.checkout, name='checkout'),
+    path('confirmation/', views.confirmation, name='confirmation'),
+    path('register/', views.register, name='register'),
+    path('login/', views.login_view, name='login'),
+    path('logout/', views.logout_view, name='logout'),
+]

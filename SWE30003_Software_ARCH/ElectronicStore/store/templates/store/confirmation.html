@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Confirmation | AWE Electronics</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'store/styles.css' %}" />
+  </head>
+  <body>
+    <h1>Thank you!</h1>
+    <p>Your order has been placed successfully.</p>
+    <a href="{% url 'store:home' %}">Back to Home</a>
+  </body>
+</html>
