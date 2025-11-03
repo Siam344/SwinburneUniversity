@@ -1,0 +1,46 @@
+# README
+
+## Overview
+
+This program is designed for performing **metamorphic testing** and **mutation testing** on a Bubble Sort algorithm. The goal is to evaluate the effectiveness of metamorphic relations (MR1 and MR2) in detecting faulty behavior across 30 non-equivalent mutants of the algorithm.
+
+### Project Structure
+
+- **Bubble_Sort_main Folder**: Contains the original GitHub source code used in this program (`bubble.py`).
+- **MUTANTS Folder**: Contains 30 non-equivalent mutant versions of the Bubble Sort algorithm (`mutated_functions.py`).
+- **TESTS Folder**: Contains the metamorphic test cases used for validating the functionality of the algorithm.(`metamorphic_tests.py`)
+- **run_tests.py**: This script serves as the main program file that runs mutation testing and calculates the mutation score.
+
+### GitHub Link for the Original Code:
+The original source code for this program can be found at the following GitHub link:  
+[Bubble Sort - Original Source](https://github.com/hrid0yyy/Bubble-Sort)
+
+## How to Run the Program
+
+### Step 1: Open the Project in VS Code
+
+1. Open **Visual Studio Code (VS Code)**.
+2. Navigate to the **SUT** folder inside your project directory.
+
+### Run Mutation Testing:
+
+To evaluate the mutants through mutation testing:
+
+1. Open the **SUT** folder in VS Code.
+2. Execute the `run_tests.py` file:
+   
+   ```bash
+   python run_tests.py
+
+
+### Run Metamorphic Testing
+
+To verify the metamorphic relations:
+
+1.Inside the SUT folder, navigate to the TESTS folder.
+
+2.Run the `metamorphic_tests.py` file:
+
+     ```bash
+  python TESTS/metamorphic_tests.py
+
