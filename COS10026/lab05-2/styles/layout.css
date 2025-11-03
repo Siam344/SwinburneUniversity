@@ -1,0 +1,80 @@
+/*
+file name: Nur E Siam
+author: Nur E Siam
+created : 16-09-2022
+last modified: 17-09-2022
+description: lab05task1.html
+*/
+
+aside:hover {display: block;}
+
+.menu {display: inline-block;}
+
+nav ul { list-style: none;}
+
+aside {
+    border: 4px inset purple;
+    border-radius: 14pt;
+    margin: 1em;
+    padding: 1em;
+    width: 30%;
+    background:url(images/fade.jpg) repeat-x top left;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+header {
+    border-style: 1px solid darkgray;
+    border-radius: 14px;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer {
+    border-top: 4px double darkgray;
+    clear: both;
+}
+
+#lists {
+    float: left;
+}
+
+#tables {
+    margin: auto;
+    float: right;
+}
+
+#hyperlinks {
+    clear:both;
+    float:left;
+}
+
+#images {
+    float: right;
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+#lists, #images, #tables, #hyperlinks {
+    width: 50%;
+    text-align: center;
+}
+
+ol, ul, dl {text-align: left;}
+
+table {margin: auto}
+
+article {min-width: 30em;}
+
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {float: left;}
+footer p:nth-child(2) {text-align: center;}
+footer p:last-child {float: right;}

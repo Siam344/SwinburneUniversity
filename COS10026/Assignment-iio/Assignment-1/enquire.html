@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Assignment Enquiries Page" />
+  <meta name="keywords"    content="HTML" />
+  <meta name="author"      content="Aiden Large" />
+  <title>Laptop Enquiries</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+
+  <div class="headerbanner">
+	<img src="stylesheet/images/logo.png" class="logo">
+	<div class="headerbanner-btn"> 
+	   <a href="index.html">HOME</a>
+	   <a href="product.html">PRODUCTS</a>
+	   <a href="about.html">ABOUT US</a>
+	   <a href="enquire.html">ENQUIRE</a>
+	   <a href="enhancement.html">ENHANCEMENTS</a>
+	</div>
+ </div>
+
+</head>
+
+<body class="enquire">
+  
+  <br />
+  
+  <h1>Enquiries</h1>
+
+  <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
+	<p>
+	  <label for="fName">First name:</label>
+	  <input type="text" name="First name" id="fName" required="required" maxlength="25" pattern="^[a-zA-Z]+$" />
+	</p>
+	<p>
+	  <label for="lName">Last name:</label>
+	  <input type="text" name="Last name" id="lName" required="required" maxlength="25" pattern="^[a-zA-Z]+$" />
+	</p>
+	<p>
+	  <label for="email">Email:</label>
+	  <input type="email" name="Email" id="email" required="required" />
+	</p>
+	
+	<br />
+  
+    <fieldset>
+      <legend>Address</legend>
+  
+      <p>
+        <label for="street">Street name:</label>
+        <input type="text" name="Street name" id="street" required="required" maxlength="40" />
+      </p>	
+      <p>
+	    <label for="town">Suburb/town:</label>
+	    <input type="text" name="Suburb/town" id="town" required="required" maxlength="20" />
+      </p>	
+	  <p>
+	    <label for="state">State:</label>
+	    <select name="State" id="state" required="required">
+          <option value="">Select State</option>
+	      <option value="VIC">VIC</option>
+	      <option value="NSW">NSW</option>
+          <option value="QLD">QLD</option>
+		  <option value="NT">NT</option>
+		  <option value="WA">WA</option>
+		  <option value="SA">SA</option>
+		  <option value="TAS">TAS</option>
+		  <option value="ACT">ACT</option>
+	    </select>
+	  </p>
+	  <p>
+	    <label for="postcode">Postcode:</label>
+	    <input type="text" name="Postcode" id="postcode" required="required" maxlength="4" pattern="[0-9]{4}" />
+	  </p>
+    </fieldset>
+  
+    <br />
+  
+    <p>
+      <label for="phone">Phone number:</label>
+      <input type="text" name="Phone number" id="phone" required="required" maxlength="10" pattern="[0-9]{0,10}" placeholder="phone number" />
+    </p>
+    <p>
+      <label>Preferred contact:</label>
+	  <br />
+	  <label><input type="radio" name="Preferred contact" value="email" required="required" />Email</label>
+	  <label><input type="radio" name="Preferred contact" value="post" />Post</label>
+	  <label><input type="radio" name="Preferred contact" value="phone" />Phone</label>
+    </p>
+    <p>
+	  <label for="product">Product:</label>
+	  <select name="Product" id="product" required="required">
+        <option value="">Select Product</option>
+	    <option value="1">Laptop 1</option>
+	    <option value="2">Laptop 2</option>
+        <option value="3">Laptop 3</option>
+	  </select>
+    </p>
+    <p>
+      <label>Product features:</label>
+	  <br />
+	  <label><input type="checkbox" name="Feature[]" value="1" checked="checked" />Feature 1</label>
+      <label><input type="checkbox" name="Feature[]" value="2" />Feature 2</label>
+	  <label><input type="checkbox" name="Feature[]" value="3" />Feature 3</label>
+    </p>
+    <p>
+	  <label>Additional comments (optional):<br />
+	    <textarea name="Comments" rows="5" cols="30" placeholder="Write any extra comments here..."></textarea>
+	  </label>
+    </p>
+	<p>
+      <input type="submit" value="Submit enquiry"/>
+      <input type="reset" value="Reset"/>
+	</p>
+  </form>
+
+  <div class="footer">
+	<div class="footer-1">
+	   <h3> Download our app</h3>
+	   <p>Our purpose is to provide people with the best quality products.<br>
+		  Visit our shop or download our app on iOS or Android mobile.</p>
+	</div>
+
+	<h3> Follow Us </h3>
+	<div class="icons">                                    <!-- source:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp -->
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-google"></a>
+		<a href="#" class="fa fa-linkedin"></a>
+	</div>
+
+	<div class ="copyright">
+	   <p><strong><br/>Project by Pixel-8 </strong></p>
+	   <p>Copyright 2022- Pixel-8. All rights reserved.</p>
+	</div>
+ </div>
+</body>

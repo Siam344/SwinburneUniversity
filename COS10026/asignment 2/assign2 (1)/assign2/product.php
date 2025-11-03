@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Product Page" />
+    <meta name="keywords" content="HTML5, CSS" />
+    <meta name="author" content="Nur E Siam"  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="stylesheet/style.css" rel="stylesheet"/>
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <?php
+	    include_once "header.inc";
+	?>
+</head>
+
+<body>
+    <!--Main Product Information-->
+    <div class="productimage">
+        <div class="mainimage">
+            <img src="stylesheet/images/Hp1.webp" alt="HP Laptop">
+            <!--https://www.jbhifi.com.au/products/microsoft-surface-laptop-studio-14-4-i7-512gb-16gb-platinum?queryID=5a78238c02e5e91cae63e99a4d496eb2&objectID=520101-->
+        </div>
+
+        <!--Image slider at the bottom-->
+        <div class="productgallery">
+        <div class="imageslider">
+            <img src="stylesheet/images/Hp1.webp">
+        </div>
+        <div class="imageslider">
+            <img src="stylesheet/images/hp2.webp">
+        </div>
+        <div class="imageslider">
+            <img src="stylesheet/images/hp3.webp">
+        </div>
+        <div class="imageslider">
+            <img src="stylesheet/images/hp4.webp">
+        </div>
+        <div class="imageslider">
+            <img src="stylesheet/images/hp5.webp">
+        </div>
+        </div>
+    </div>
+
+    <section class="productinfo">
+        <h1>Microsoft Surface Laptop Studio 14.4"</h1>
+        <h3><strong>Price</strong></h3>
+        <h2>2979$</h2>
+        <h3><strong>Product Information</strong></h3>
+        <aside> 
+            <p>The most powerful Surface Laptop. Quad-core powered 11th Gen Intel® Core™ 
+                <br>H Series processors handle your most complex workloads</p>
+        </aside>
+
+        <!--Dropdown list for product colours-->
+        <legend class="variations">Colour Variations</legend>
+			<p>
+				<input type="radio" id="Blue" name="unit" value="Blue"/>
+                <label for="Blue">Blue</label> 
+                <input type="radio" id="Pink" name="unit" value="pink"/>
+                <label for="Pink">Pink</label>
+                <input type="radio" id="Black" name="unit" value="Black"/>
+                <label for="Black">Black</label>
+			</p>
+        <!--Add To Cart button-->
+        <input type= "submit" class="button" value="Add to Cart"/>
+        <input type= "submit" class="button" value="Buy Now"/>
+
+    </section>
+
+    <section class="systemspecs">
+        <table class="producttable">
+            <caption class="systemtitle">System Specs</caption>
+            <tr>
+                <th>Processor</th>
+                <td>Intel i7 11th Gen</td>
+            </tr> 
+
+            <tr>
+                <th>RAM</th>
+                <td>16GB</td>
+            </tr> 
+
+            <tr>
+                <th>GPU</th>
+                <td>2060TI, 8 GB</td>
+            </tr>
+
+            <tr>
+                <th>Storage</th>
+                <td>512Gb</td>
+            </tr>
+
+            <tr>
+                <th>Display</th>
+                <td>144Hz</td>
+            </tr> 
+        </table>
+    </section>
+
+    <section class="recommendations"> 
+        <!--Recommending other products-->
+        <h2>Recommended</h2>
+        <div class ="rec-products">
+        <div class="rec-column">
+            <img src="stylesheet/images/Asus.jpg" alt="Asus" width="200" height="200">
+            <!--https://www.notebookcheck.net/All-AMD-Asus-ROG-Strix-G15-gaming-laptop-with-Ryzen-9-5980HX-and-Radeon-RX-6800M-back-on-sale-with-a-US-300-discount.639702.0.html-->
+            <h3>Asus Laptop</h3>
+            <p>2500$</p>
+            <ol>
+                <li>Higher refresh rate</li>
+                <li>Lightweight</li>
+                <li>DDR 5 RAM</li>
+            </ol>
+            <input type= "submit" class="button" value="Add to cart"/>
+        </div>
+
+        <div class="rec-column">
+            <img src="stylesheet/images/GPU.png" alt="RTX 2060" width="200" height="200">
+            <!--https://www.amazon.com.au/ASUS-Graphics-Powerful-Axial-tech-DUAL-RTX2060-O6G-EVO/dp/B07V1Y6Y2J-->
+            <h3>RTX 2060</h3>
+            <p>1200$</p>
+            <ol>
+                <li>Faster frame rate</li>
+                <li>16 GB storage</li>
+                <li>Double fan</li>
+              </ol>
+            <input type= "submit" class="button" value="Add to cart"/>
+        </div>
+
+        <div class="rec-column">
+            <img src="stylesheet/images/GPU 2.png" alt="R9 380" width="200" height="200">
+            <!--https://www.msi.com/Graphics-Card/R9-380-GAMING-2G/Specification-->
+            <h3>R9 380</h3>
+            <p>995$</p>
+            <ol>
+                <li>Sata cable</li>
+                <li>HDMI supported</li>
+                <li>8 GB storage</li>
+              </ol>
+            <input type= "submit" class="button" value="Add to cart"/>
+        </div>
+
+        <div class="rec-column">
+            <img src="stylesheet/images/Casing.png" alt="Desktop Casing" width="200" height="200">
+            <!--https://www.dhgate.com/product/ipason-gaming-pc-amd-4-core-3-7ghz-amd-radeon/551479445.html-->
+            <h3>Desktop Casing</h3>
+            <p>300$</p>
+            <ol>
+                <li>Lightweight</li>
+                <li>RGB setting</li>
+                <li>Fan controlled</li>
+              </ol>
+            <input type= "submit" class="button" value="Add to cart"/>
+        </div>
+
+        <div class="rec-column">
+            <img src="stylesheet/images/BenQ Monitor.png" alt="Monitor" width="200" height="200">
+            <!--https://www.centrecom.com.au/benq-zowie-xl2411k-144hz-dyac-24-inch-esports-gaming-monitor-->
+            <h3>BenQ Monitor</h3>
+            <p>445$</p>
+            <ol>
+                <li>255 refresh rate</li>
+                <li>V-Sync</li>
+                <li>Overclocked</li>
+              </ol>
+            <input type= "submit" class="button" value="Add to cart"/>
+        </div>
+        </div>
+    </section>
+
+    <?php
+	    include_once "footer.inc";
+	?>
+</body>
+</html>
