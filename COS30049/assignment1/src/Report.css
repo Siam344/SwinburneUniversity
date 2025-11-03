@@ -1,0 +1,35 @@
+/* Apply styling to the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #ffea00; 
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Apply styling to table header cells (th) and table data cells (td) */
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  /* Apply styling to table header cells (th) */
+  th {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Apply alternate background color to even rows */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Apply background color change on hover */
+
+  tr:hover {
+    background-color: #ddd;
+  }
+  

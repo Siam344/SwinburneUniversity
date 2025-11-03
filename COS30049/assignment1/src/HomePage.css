@@ -1,0 +1,21 @@
+/* Styles for the container of the home page */
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  /* Styles for additional content within the home page */
+  .content {
+    margin-top: 20px;
+  }
+  /* Styles for the trust-text paragraph */
+  .trust-text {
+    color:  #000080; 
+  }
+  /* Styles for the file-upload section */
+  .file-upload {
+    margin-top: 20px;
+  }
+  

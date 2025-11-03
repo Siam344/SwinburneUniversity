@@ -1,0 +1,18 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer p {
+    font-size: 0.8em;           /* Increases font size */
+    font-family: 'Arial', sans-serif;  /* Sets the font */
+    font-style: italic;          /* Makes the text italic */
+    letter-spacing: 0.1em;      /* Adds a bit of spacing between characters for better readability */
+  }
+  

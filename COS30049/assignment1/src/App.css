@@ -1,0 +1,81 @@
+/* Reset some default styles */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Create a gradient background for the entire body */
+body {
+  background: linear-gradient(45deg, #FFD700, #007BFF);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Style the login container */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  background-color: #f0f5f9;
+}
+
+/* Typography styles */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Form input styles */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+/* Submit button styles */
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styles */
+p {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
