@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Cos30008\\problemset1\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|H:\\Cos30008\\problemset1\\Project1\\Project1\\Vector3D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Vector3D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|H:\\Cos30008\\problemset1\\Project1\\Project1\\Vector3D_PS1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Vector3D_PS1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|H:\\Cos30008\\problemset1\\Project1\\Project1\\Polygon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Polygon.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|H:\\Cos30008\\problemset1\\Project1\\Project1\\Matrix3x3_PS1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Matrix3x3_PS1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|H:\\Cos30008\\problemset1\\Project1\\Project1\\Matrix3x3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Matrix3x3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|H:\\Cos30008\\problemset1\\Project1\\Project1\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|H:\\Cos30008\\problemset1\\Project1\\Project1\\Polygon_PS1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Polygon_PS1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|H:\\Cos30008\\problemset1\\Project1\\Project1\\Polygon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Polygon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|H:\\Cos30008\\problemset1\\Project1\\Project1\\Parallelogram.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Parallelogram.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|H:\\Cos30008\\problemset1\\Project1\\Project1\\Matrix3x3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5A4693D-E9AD-4F06-8EDB-DECB2D37D9B1}|Project1\\Project1.vcxproj|solutionrelative:Project1\\Matrix3x3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vector3D_PS1.cpp",
+              "DocumentMoniker": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Vector3D_PS1.cpp",
+              "RelativeDocumentMoniker": "Project1\\Vector3D_PS1.cpp",
+              "ToolTip": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Vector3D_PS1.cpp",
+              "RelativeToolTip": "Project1\\Vector3D_PS1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-26T17:13:23.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Matrix3x3.cpp",
+              "DocumentMoniker": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Matrix3x3.cpp",
+              "RelativeDocumentMoniker": "Project1\\Matrix3x3.cpp",
+              "ToolTip": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Matrix3x3.cpp",
+              "RelativeToolTip": "Project1\\Matrix3x3.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-23T19:05:17.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Polygon.h",
+              "DocumentMoniker": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Polygon.h",
+              "RelativeDocumentMoniker": "Project1\\Polygon.h",
+              "ToolTip": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Polygon.h",
+              "RelativeToolTip": "Project1\\Polygon.h",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAlwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-23T19:04:21.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Polygon_PS1.cpp",
+              "DocumentMoniker": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Polygon_PS1.cpp",
+              "RelativeDocumentMoniker": "Project1\\Polygon_PS1.cpp",
+              "ToolTip": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Polygon_PS1.cpp",
+              "RelativeToolTip": "Project1\\Polygon_PS1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-23T11:53:38.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Matrix3x3_PS1.cpp",
+              "DocumentMoniker": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Matrix3x3_PS1.cpp",
+              "RelativeDocumentMoniker": "Project1\\Matrix3x3_PS1.cpp",
+              "ToolTip": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Matrix3x3_PS1.cpp",
+              "RelativeToolTip": "Project1\\Matrix3x3_PS1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-23T19:03:21.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Matrix3x3.h",
+              "DocumentMoniker": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Matrix3x3.h",
+              "RelativeDocumentMoniker": "Project1\\Matrix3x3.h",
+              "ToolTip": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Matrix3x3.h",
+              "RelativeToolTip": "Project1\\Matrix3x3.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-24T10:49:48.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Parallelogram.txt",
+              "DocumentMoniker": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Parallelogram.txt",
+              "RelativeDocumentMoniker": "Project1\\Parallelogram.txt",
+              "ToolTip": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Parallelogram.txt",
+              "RelativeToolTip": "Project1\\Parallelogram.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-26T05:26:53.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vector3D.cpp",
+              "DocumentMoniker": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Vector3D.cpp",
+              "RelativeDocumentMoniker": "Project1\\Vector3D.cpp",
+              "ToolTip": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Vector3D.cpp",
+              "RelativeToolTip": "Project1\\Vector3D.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-23T18:38:47.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Polygon.cpp",
+              "DocumentMoniker": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Polygon.cpp",
+              "RelativeDocumentMoniker": "Project1\\Polygon.cpp",
+              "ToolTip": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Polygon.cpp",
+              "RelativeToolTip": "Project1\\Polygon.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-23T18:37:29.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Main.cpp",
+              "RelativeDocumentMoniker": "Project1\\Main.cpp",
+              "ToolTip": "H:\\Cos30008\\problemset1\\Project1\\Project1\\Main.cpp",
+              "RelativeToolTip": "Project1\\Main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-22T20:45:38.956Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

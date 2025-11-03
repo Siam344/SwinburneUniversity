@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Cos30008\\Final\\Finalexam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F8E82C-F3BE-419F-A9BD-ADE322432E04}|Finalexam.vcxproj|H:\\Cos30008\\Final\\Finalexam\\PalindromeStringIterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5F8E82C-F3BE-419F-A9BD-ADE322432E04}|Finalexam.vcxproj|solutionrelative:PalindromeStringIterator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F8E82C-F3BE-419F-A9BD-ADE322432E04}|Finalexam.vcxproj|H:\\Cos30008\\Final\\Finalexam\\DynamicQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5F8E82C-F3BE-419F-A9BD-ADE322432E04}|Finalexam.vcxproj|solutionrelative:DynamicQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F8E82C-F3BE-419F-A9BD-ADE322432E04}|Finalexam.vcxproj|H:\\Cos30008\\Final\\Finalexam\\List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5F8E82C-F3BE-419F-A9BD-ADE322432E04}|Finalexam.vcxproj|solutionrelative:List.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F8E82C-F3BE-419F-A9BD-ADE322432E04}|Finalexam.vcxproj|H:\\Cos30008\\Final\\Finalexam\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5F8E82C-F3BE-419F-A9BD-ADE322432E04}|Finalexam.vcxproj|solutionrelative:Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PalindromeStringIterator.cpp",
+              "DocumentMoniker": "H:\\Cos30008\\Final\\Finalexam\\PalindromeStringIterator.cpp",
+              "RelativeDocumentMoniker": "PalindromeStringIterator.cpp",
+              "ToolTip": "H:\\Cos30008\\Final\\Finalexam\\PalindromeStringIterator.cpp",
+              "RelativeToolTip": "PalindromeStringIterator.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T23:35:58.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DynamicQueue.h",
+              "DocumentMoniker": "H:\\Cos30008\\Final\\Finalexam\\DynamicQueue.h",
+              "RelativeDocumentMoniker": "DynamicQueue.h",
+              "ToolTip": "H:\\Cos30008\\Final\\Finalexam\\DynamicQueue.h",
+              "RelativeToolTip": "DynamicQueue.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T23:34:40.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "H:\\Cos30008\\Final\\Finalexam\\Main.cpp",
+              "RelativeDocumentMoniker": "Main.cpp",
+              "ToolTip": "H:\\Cos30008\\Final\\Finalexam\\Main.cpp",
+              "RelativeToolTip": "Main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-13T23:17:40.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.h",
+              "DocumentMoniker": "H:\\Cos30008\\Final\\Finalexam\\List.h",
+              "RelativeDocumentMoniker": "List.h",
+              "ToolTip": "H:\\Cos30008\\Final\\Finalexam\\List.h",
+              "RelativeToolTip": "List.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-13T23:15:23.824Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
