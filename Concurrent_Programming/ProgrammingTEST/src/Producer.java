@@ -1,0 +1,45 @@
+import java.util.Random;
+
+public class Producer extends Thread {
+
+    private final int producerId;
+    private final BoundedBuffer<LogEntry> outBuffer;
+    private final long endTimeMillis;
+    private int messageCount = 0;
+    private final Random rand = new Random();
+
+    public Producer(int producerId, BoundedBuffer<LogEntry> outBuffer, long durationMillis) {
+        this.producerId = producerId;
+        this.outBuffer = outBuffer;
+        this.endTimeMillis = System.currentTimeMillis() + durationMillis;
+    }
+
+    @Override
+    public void run() {
+        try {
+            while (System.currentTimeMillis() < endTimeMillis) {
+                Thread.sleep(200);
+
+                long ts = System.currentTimeMillis();
+                messageCount++;
+
+                int p = rand.nextInt(100);
+                LogEntry.Category cat;
+                if (p < 60) {
+                    cat = LogEntry.Category.INFO;
+                } else if (p < 90) {
+                    cat = LogEntry.Category.WARNING;
+                } else {
+                    cat = LogEntry.Category.ERROR;
+                }
+
+                String msg = "Producer-" + producerId + " message " + messageCount + ".";
+                LogEntry entry = new LogEntry(ts, cat, msg);
+
+                outBuffer.put(entry);
+            }
+        } catch (InterruptedException e) {
+            
+        }
+    }
+}

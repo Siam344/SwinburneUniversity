@@ -1,0 +1,8 @@
+
+public class BoundedBuffer {
+
+	public BoundedBuffer() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

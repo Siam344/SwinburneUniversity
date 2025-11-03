@@ -1,0 +1,51 @@
+public class FilterWorker extends Thread {
+
+    private final BoundedBuffer<LogEntry> inBuffer;
+    private final BoundedBuffer<LogEntry> outBuffer;
+
+    private volatile boolean running = true;
+
+    // stats
+    private int infoCount = 0;
+    private int warnCount = 0;
+    private int errorCount = 0;
+
+    public FilterWorker(BoundedBuffer<LogEntry> inBuffer,
+                        BoundedBuffer<LogEntry> outBuffer) {
+        this.inBuffer = inBuffer;
+        this.outBuffer = outBuffer;
+    }
+
+    public void stopRunning() {
+        running = false;
+        this.interrupt(); // in case it's blocked on take()
+    }
+
+    public int getInfoCount() { return infoCount; }
+    public int getWarnCount() { return warnCount; }
+    public int getErrorCount() { return errorCount; }
+
+    @Override
+    public void run() {
+        try {
+            while (running) {
+                LogEntry entry = inBuffer.take();
+
+                // count stats regardless
+                switch (entry.getCategory()) {
+                    case INFO:    infoCount++; break;
+                    case WARNING: warnCount++; break;
+                    case ERROR:   errorCount++; break;
+                }
+
+                // forward only WARNING and ERROR
+                if (entry.getCategory() == LogEntry.Category.WARNING ||
+                    entry.getCategory() == LogEntry.Category.ERROR) {
+                    outBuffer.put(entry);
+                }
+            }
+        } catch (InterruptedException e) {
+            // exiting
+        }
+    }
+}

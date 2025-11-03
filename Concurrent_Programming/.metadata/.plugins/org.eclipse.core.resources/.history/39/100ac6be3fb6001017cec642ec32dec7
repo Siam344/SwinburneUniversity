@@ -1,0 +1,47 @@
+import java.util.LinkedList;
+import java.util.List;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class BoundedBuffer<T> {
+
+    private final List<T> buffer;
+    private final int capacity;
+
+    private final Lock lock = new ReentrantLock();
+    private final Condition notFull = lock.newCondition();
+    private final Condition notEmpty = lock.newCondition();
+
+    public BoundedBuffer(int capacity) {
+        this.capacity = capacity;
+        this.buffer = new LinkedList<>();
+    }
+
+    public void put(T item) throws InterruptedException {
+        lock.lock();
+        try {
+            while (buffer.size() == capacity) {
+                notFull.await(); // wait if full
+            }
+            buffer.add(item);
+            notEmpty.signal(); // tell takers there is something
+        } finally {
+            lock.unlock();
+        }
+    }
+
+    public T take() throws InterruptedException {
+        lock.lock();
+        try {
+            while (buffer.isEmpty()) {
+                notEmpty.await(); // wait if empty
+            }
+            T item = buffer.remove(0);
+            notFull.signal(); // tell putters there is space
+            return item;
+        } finally {
+            lock.unlock();
+        }
+    }
+}

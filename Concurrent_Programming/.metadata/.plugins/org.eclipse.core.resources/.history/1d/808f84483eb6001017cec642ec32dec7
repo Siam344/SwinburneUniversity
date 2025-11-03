@@ -1,0 +1,54 @@
+public class LogProcessorMain {
+
+    public static void main(String[] args) {
+        System.out.println("Starting LogProcessor demo with 2 producers for 5s...");
+
+        // shared buffers
+        BoundedBuffer<LogEntry> rawBuffer = new BoundedBuffer<>(100);
+        BoundedBuffer<LogEntry> filteredBuffer = new BoundedBuffer<>(100);
+
+        // create workers
+        long durationMs = 5000; // 5 seconds for producers
+        Producer p1 = new Producer(1, rawBuffer, durationMs);
+        Producer p2 = new Producer(2, rawBuffer, durationMs);
+
+        FilterWorker filter = new FilterWorker(rawBuffer, filteredBuffer);
+        SorterWorker sorter = new SorterWorker(filteredBuffer);
+
+        // start threads
+        p1.start();
+        p2.start();
+        filter.start();
+        sorter.start();
+
+        try {
+            // wait for producers to finish generating messages
+            p1.join();
+            p2.join();
+
+            // give filter some time to consume remaining raw logs
+            Thread.sleep(500);
+
+            // stop filter
+            filter.stopRunning();
+            filter.join();
+
+            // give sorter some time to consume remaining filtered logs
+            Thread.sleep(500);
+
+            // stop sorter
+            sorter.stopRunning();
+            sorter.join();
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        // print final stats
+        System.out.println("-----------------------------");
+        System.out.println("Final statistics:");
+        System.out.println("Processed INFO = " + filter.getInfoCount());
+        System.out.println("Processed WARNING = " + filter.getWarnCount());
+        System.out.println("Processed ERROR = " + filter.getErrorCount());
+    }
+}

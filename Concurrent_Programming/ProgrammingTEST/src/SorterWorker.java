@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class SorterWorker extends Thread {
+
+    private final BoundedBuffer<LogEntry> inBuffer;
+    private volatile boolean running = true;
+    private final List<LogEntry> pending = new ArrayList<>();
+
+    public SorterWorker(BoundedBuffer<LogEntry> inBuffer) {
+        this.inBuffer = inBuffer;
+    }
+
+    public void stopRunning() {
+        running = false;
+        this.interrupt();
+    }
+
+    @Override
+    public void run() {
+        long lastPrint = System.currentTimeMillis();
+
+        try {
+            while (running) {
+                long now = System.currentTimeMillis();
+
+                LogEntry entry = inBuffer.take();
+                pending.add(entry);
+
+                if (now - lastPrint >= 1000) {
+                    printAndClear();
+                    lastPrint = System.currentTimeMillis();
+                }
+            }
+        } catch (InterruptedException e) {
+           
+        }
+
+        printAndClear();
+    }
+
+    private void printAndClear() {
+        if (pending.isEmpty()) return;
+
+        System.out.println("-----------------------------");
+        Collections.sort(pending);
+        for (LogEntry e : pending) {
+            System.out.println(e.formatForOutput());
+        }
+        pending.clear();
+    }
+}

@@ -1,0 +1,42 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class LogEntry implements Comparable<LogEntry> {
+
+    public enum Category {
+        INFO, WARNING, ERROR
+    }
+
+    private final long timestamp;
+    private final Category category;
+    private final String message;
+
+    public LogEntry(long timestamp, Category category, String message) {
+        this.timestamp = timestamp;
+        this.category = category;
+        this.message = message;
+    }
+
+    public long getTimestamp() {
+        return timestamp;
+    }
+
+    public Category getCategory() {
+        return category;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public String formatForOutput() {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
+        String tsString = sdf.format(new Date(timestamp));
+        return "[" + tsString + "][" + category + "] " + message;
+    }
+
+    @Override
+    public int compareTo(LogEntry other) {
+        return Long.compare(this.timestamp, other.timestamp);
+    }
+}
