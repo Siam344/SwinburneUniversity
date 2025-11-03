@@ -1,0 +1,79 @@
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.navbar
+{
+    font-family: "Anta", sans-serif;
+    background-color: black; 
+    overflow: hidden;
+}
+
+.navbar a 
+{
+    float: left;
+    color: #e44e4e;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover
+{
+    color: beige; 
+}
+
+body 
+{
+    font-family: "Anta", sans-serif;
+    background-color: beige;
+}
+
+.header 
+{
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%; 
+    color: beige; 
+    background-image: url("https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2020/6/5/ctsejxmdtw9inp8zqqqd/red-bull-campus-clutch-valorant-agents");
+    background-position: center;
+}
+
+button
+{
+    font-family: "Anta", sans-serif;
+    float: center; 
+    color: beige; 
+    background-color: #e44e4e;
+    border: none; 
+    padding: 15px 30px; 
+    text-decoration: none; 
+    display: inline block; 
+    font-size: 16px; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+.latest
+{
+    padding-left: 30px; 
+    padding-bottom: 30px; 
+}
+
+.latest h2 
+{
+    padding-bottom: 15px; 
+}
+
+.valorant 
+{
+    padding-left: 30px; 
+}
+
+.valorant h1
+{
+    font-size: 48px;
+}

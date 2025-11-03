@@ -1,0 +1,105 @@
+[
+    {
+      "title": "Minecraft Dungeons: Ultimate Edition",
+      "content": "Experience the complete story from the beginning to the End! Minecraft Dungeons: Ultimate Edition includes the base game and all six DLCs.",
+      "price": "$19.99",
+      "image": "banner-img-1.jpg"
+    },
+    {
+      "title": "PUBG: New State",
+      "content": "Kraftson is gearing up to launch its second battle royale mobile game after Battlegrounds Mobile India called PUBG: New State.",
+      "price": "$29.99",
+      "image": "banner-img-2.jpg"
+    },
+    {
+      "title": "Apex Legends Evolution Collection Events",
+      "content": "Learn what a Legend can become in the Apex Legends Evolution Collection Event.",
+      "price": "$39.99",
+      "image": "banner-img-3.jpg"
+    },
+    {
+      "title": "Latest Game News 1",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "price": "$49.99",
+      "image": "news-1.jpg"
+    },
+    {
+      "title": "Latest Game News 2",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "price": "$59.99",
+      "image": "news-2.jpg"
+    },
+    {
+      "title": "Latest Game News 3",
+      "content": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+      "price": "$69.99",
+      "image": "news-3.jpg"
+    },
+    {
+      "title": "Popular Game News 1",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$29.99",
+      "image": "news-4.jpg"
+    },
+    {
+      "title": "Popular Game News 2",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$19.99",
+      "image": "news-5.jpg"
+    },
+    {
+      "title": "Popular Game News 3",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$24.99",
+      "image": "news-6.jpg"
+    },
+    {
+      "title": "Popular Game News 4",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$34.99",
+      "image": "news-7.jpg"
+    },
+    {
+      "title": "Popular Game News 5",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$44.99",
+      "image": "news-8.jpg"
+    },
+    {
+      "title": "Popular Game News 6",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$54.99",
+      "image": "news-9.jpg"
+    },
+    {
+      "title": "Review Game 1",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$64.99",
+      "image": "review-1.jpg"
+    },
+    {
+      "title": "Review Game 2",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$74.99",
+      "image": "review-2.jpg"
+    },
+    {
+      "title": "Review Game 3",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$84.99",
+      "image": "review-3.jpg"
+    },
+    {
+      "title": "Review Game 4",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$94.99",
+      "image": "review-4.jpg"
+    },
+    {
+      "title": "Review Game 5",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "price": "$104.99",
+      "image": "review-5.jpg"
+    }
+]
+  

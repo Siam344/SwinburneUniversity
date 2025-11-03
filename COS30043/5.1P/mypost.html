@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status Posting App</title>
+  <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+  <div id="app">
+    <input type="text" v-model="strStatus" placeholder="What's on your mind?">
+    <button type="button" @click="add">Post</button>
+
+    <ul v-if="statPosts.length > 0">
+      <li v-for="(post, index) in statPosts" :key="index">
+        {{ post }} <button type="button" @click="remove(index)">Delete</button>
+      </li>
+    </ul>
+    <p v-else>No status updates yet.</p>
+  </div>
+
+  <script>
+    const app = Vue.createApp({
+      data() {
+        return {
+          statPosts: [], // Array to store status posts
+          strStatus: ''  // Input field value
+        }
+      },
+      methods: {
+        add() {
+          if (this.strStatus.trim()) { // Check for empty status
+            this.statPosts.unshift(this.strStatus); // Add to the beginning of the array
+            this.strStatus = ''; // Clear the input field
+          }
+        },
+        remove(index) {
+          this.statPosts.splice(index, 1); // Remove the status at the given index
+        }
+      }
+    });
+
+    app.mount('#app');
+  </script>
+</body>
+</html>

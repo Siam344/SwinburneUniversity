@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Improved Calculator</title>
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+    p {
+      border-style: solid;
+      text-align: center;
+    }
+    div.container {
+      background-color: lightgray;
+      max-width: 300px;
+      margin-top: 10px;
+      padding-top: 15px;
+    }
+    .num, .operations, .sign {
+      width: 100%;
+      height: 50px;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 5px;
+    }
+    .num {
+      background-color: white;
+    }
+    .operations {
+      background-color: orange;
+    }
+    .sign {
+      background-color: darkgray;
+    }
+    .result {
+      background-color: white;
+      text-align: left;
+      padding: 10px;
+    }
+    @media (max-width: 576px) {
+      div.container {
+        min-width: 300px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12"><p class="result" id="calculator-display">0</p></div>
+    </div>
+    <div class="row">
+      <div class="col-3"><p class="sign calculator-btn" data-value="MC">MC</p></div>
+      <div class="col-3"><p class="sign calculator-btn" data-value="M+">M+</p></div>
+      <div class="col-3"><p class="sign calculator-btn" data-value="M-">M-</p></div>
+      <div class="col-3"><p class="sign calculator-btn" data-value="MR">MR</p></div>
+    </div>
+    <div class="row">
+      <div class="col-3"><p class="sign calculator-btn" data-value="AC">AC</p></div>
+      <div class="col-3"><p class="sign calculator-btn" data-value="√x">√x</p></div>
+      <div class="col-3"><p class="sign calculator-btn" data-value="%">%</p></div>
+      <div class="col-3"><p class="operations calculator-btn" data-value="÷">÷</p></div>
+    </div>
+    <div class="row">
+      <div class="col-3"><p class="num calculator-btn" data-value="7">7</p></div>
+      <div class="col-3"><p class="num calculator-btn" data-value="8">8</p></div>
+      <div class="col-3"><p class="num calculator-btn" data-value="9">9</p></div>
+      <div class="col-3"><p class="operations calculator-btn" data-value="x">x</p></div>
+    </div>
+    <div class="row">
+      <div class="col-3"><p class="num calculator-btn" data-value="4">4</p></div>
+      <div class="col-3"><p class="num calculator-btn" data-value="5">5</p></div>
+      <div class="col-3"><p class="num calculator-btn" data-value="6">6</p></div>
+      <div class="col-3"><p class="operations calculator-btn" data-value="-">-</p></div>
+    </div>
+    <div class="row">
+      <div class="col-3"><p class="num calculator-btn" data-value="1">1</p></div>
+      <div class="col-3"><p class="num calculator-btn" data-value="2">2</p></div>
+      <div class="col-3"><p class="num calculator-btn" data-value="3">3</p></div>
+      <div class="col-3"><p class="operations calculator-btn" data-value="+">+</p></div>
+    </div>
+    <div class="row">
+      <div class="col-3"><p class="num calculator-btn" data-value="0">0</p></div>
+      <div class="col-3"><p class="num calculator-btn" data-value=".">.</p></div>
+      <div class="col-3"><p class="num calculator-btn" data-value="+/-">+/-</p></div>
+      <div class="col-3"><p class="operations calculator-btn" data-value="=">=</p></div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!--  custom JavaScript for calculator functionality -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const display = document.getElementById('calculator-display');
+      const buttons = document.querySelectorAll('.calculator-btn');
+
+      buttons.forEach(button => {
+        button.addEventListener('click', function () {
+          const value = this.getAttribute('data-value');
+          // Update the display with the clicked button's value
+          display.textContent = value;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
